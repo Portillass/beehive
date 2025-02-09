@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index - eStartup Bootstrap Template</title>
+  <title>Beehive</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -43,7 +43,7 @@
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename"><span>e</span>Startup</h1>
+        <h1 class="sitename"><span>B</span>hive</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
@@ -69,7 +69,7 @@
       <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
         <div class="row gy-5">
           <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
-            <h2>eStartup</h2>
+            <h2>Beehive</h2>
             <p>Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet. Eum quas beatae cumque eum quaerat.</p>
             <div class="d-flex">
               <a href="#about" class="btn-get-started">Get Started</a>
@@ -86,33 +86,33 @@
         <div class="container position-relative">
           <div class="row gy-4 mt-5">
 
-            <div class="col-xl-3 col-md-6">
+            <!-- <div class="col-xl-3 col-md-6">
               <div class="icon-box">
                 <div class="icon"><i class="bi bi-easel"></i></div>
                 <h4 class="title"><a href="" class="stretched-link">Lorem Ipsum</a></h4>
               </div>
-            </div><!--End Icon Box -->
+            </div>End Icon Box -->
 
-            <div class="col-xl-3 col-md-6">
+            <!-- <div class="col-xl-3 col-md-6">
               <div class="icon-box">
                 <div class="icon"><i class="bi bi-gem"></i></div>
                 <h4 class="title"><a href="" class="stretched-link">Sed ut perspiciatis</a></h4>
               </div>
-            </div><!--End Icon Box -->
+            </div>End Icon Box -->
 
             <div class="col-xl-3 col-md-6">
               <div class="icon-box">
                 <div class="icon"><i class="bi bi-geo-alt"></i></div>
-                <h4 class="title"><a href="" class="stretched-link">Magni Dolores</a></h4>
+                <h4 class="title"><a href="" class="stretched-link">Location</a></h4>
               </div>
             </div><!--End Icon Box -->
 
-            <div class="col-xl-3 col-md-6">
+            <!-- <div class="col-xl-3 col-md-6">
               <div class="icon-box">
                 <div class="icon"><i class="bi bi-command"></i></div>
                 <h4 class="title"><a href="" class="stretched-link">Nemo Enim</a></h4>
               </div>
-            </div><!--End Icon Box -->
+            </div>End Icon Box -->
 
           </div>
         </div>
@@ -128,16 +128,16 @@
         <div class="row gy-4">
 
           <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
-            <p class="who-we-are">Who We Are</p>
-            <h3>Unleashing Potential with Creative Strategy</h3>
+            <p class="who-we-are">Beehive</p>
+            <h3>About Our Beehive Monitoring System</h3>
             <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+            Our IoT-Based Beehive Monitoring System is designed to revolutionize beekeeping practices through smart technology,
+            enhancing honeybee health, productivity, and sustainability.
             </p>
             <ul>
-              <li><i class="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Real-time monitoring of hive conditions like temperature, humidity, and air quality.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Early detection of potential threats, reducing colony losses from diseases and pests.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Supports sustainable beekeeping practices by bridging traditional methods with modern IoT technology.</span></li>
             </ul>
             <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
           </div>
@@ -169,167 +169,175 @@
     <!-- Services Section -->
     <section id="services" class="services section">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Services</h2>
-        <div><span>Check Our</span> <span class="description-title">Services</span></div>
-      </div><!-- End Section Title -->
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Services</h2>
+    <div><span>Check Our</span> <span class="description-title">Beehive Services</span></div>
+  </div><!-- End Section Title -->
 
-      <div class="container">
+  <div class="container">
+    <div class="row gy-4">
 
-        <div class="row gy-4">
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item  position-relative">
-              <div class="icon">
-                <i class="bi bi-activity"></i>
-              </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Nesciunt Mete</h3>
-              </a>
-              <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-broadcast"></i>
-              </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Eosle Commodi</h3>
-              </a>
-              <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-easel"></i>
-              </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Ledo Markt</h3>
-              </a>
-              <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-bounding-box-circles"></i>
-              </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Asperiores Commodit</h3>
-              </a>
-              <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
-              <a href="service-details.html" class="stretched-link"></a>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-calendar4-week"></i>
-              </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Velit Doloremque</h3>
-              </a>
-              <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
-              <a href="service-details.html" class="stretched-link"></a>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-chat-square-text"></i>
-              </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Dolori Architecto</h3>
-              </a>
-              <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
-              <a href="service-details.html" class="stretched-link"></a>
-            </div>
-          </div><!-- End Service Item -->
-
+      <!-- Service 1: Real-Time Hive Monitoring -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="bi bi-activity"></i>
+          </div>
+          <a href="service-details.html" class="stretched-link">
+            <h3>Real-Time Hive Monitoring</h3>
+          </a>
+          <p>Monitor hive temperature, humidity, and air quality in real-time to ensure optimal conditions for healthy colonies.</p>
         </div>
+      </div><!-- End Service Item -->
 
-      </div>
+      <!-- Service 2: Early Threat Detection -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="bi bi-shield-check"></i>
+          </div>
+          <a href="service-details.html" class="stretched-link">
+            <h3>Early Threat Detection</h3>
+          </a>
+          <p>Detect potential risks like diseases, pests, and environmental changes early, preventing colony losses and ensuring safety.</p>
+        </div>
+      </div><!-- End Service Item -->
 
-    </section><!-- /Services Section -->
+      <!-- Service 3: Data Analytics & Insights -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="bi bi-graph-up"></i>
+          </div>
+          <a href="service-details.html" class="stretched-link">
+            <h3>Data Analytics & Insights</h3>
+          </a>
+          <p>Analyze environmental data to make informed decisions that improve hive productivity and sustainability.</p>
+        </div>
+      </div><!-- End Service Item -->
+
+      <!-- Service 4: Remote Access & Control -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="bi bi-wifi"></i>
+          </div>
+          <a href="service-details.html" class="stretched-link">
+            <h3>Remote Access & Control</h3>
+          </a>
+          <p>Manage and monitor your beehives from anywhere using IoT technology for greater flexibility and convenience.</p>
+        </div>
+      </div><!-- End Service Item -->
+
+      <!-- Service 5: Sustainable Beekeeping Practices -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="bi bi-recycle"></i>
+          </div>
+          <a href="service-details.html" class="stretched-link">
+            <h3>Sustainable Beekeeping</h3>
+          </a>
+          <p>Promote eco-friendly and sustainable beekeeping practices through data-driven insights and smart technology.</p>
+        </div>
+      </div><!-- End Service Item -->
+
+      <!-- Service 6: Cost-Effective Hive Management -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="bi bi-cash-coin"></i>
+          </div>
+          <a href="service-details.html" class="stretched-link">
+            <h3>Cost-Effective Hive Management</h3>
+          </a>
+          <p>Reduce operational costs by minimizing manual hive checks and optimizing resource use through smart automation.</p>
+        </div>
+      </div><!-- End Service Item -->
+
+    </div>
+  </div>
+
+</section>
+<!-- /Services Section -->
 
     <!-- Features Section -->
     <section id="features" class="features section light-background">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Features</h2>
-        <div><span>Check Our</span> <span class="description-title">Features</span></div>
-      </div><!-- End Section Title -->
+<!-- Section Title -->
+<div class="container section-title" data-aos="fade-up">
+  <h2>Features</h2>
+  <div><span>Check Our</span> <span class="description-title">Smart Beehive Features</span></div>
+</div><!-- End Section Title -->
 
-      <div class="container">
+<div class="container">
+  <div class="row gy-5 justify-content-between">
 
-        <div class="row gy-5 justify-content-between">
+    <!-- Beehive Monitoring Illustration -->
+    <div class="col-xl-5" data-aos="zoom-out" data-aos-delay="100">
+     <img src="assets/assets/img//template/eStartup/features.svg" class="img-fluid" alt="">
+    </div>
 
-          <div class="col-xl-5" data-aos="zoom-out" data-aos-delay="100">
-            <img src="assets/assets/img//template/eStartup/features.svg" class="img-fluid" alt="">
+    <div class="col-xl-6 d-flex">
+      <div class="row align-self-center gy-4">
+
+        <!-- Feature 1: Real-Time Data Collection -->
+        <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="feature-box d-flex align-items-center">
+            <i class="bi bi-bar-chart-line"></i>
+            <h3>Real-Time Data Collection</h3>
           </div>
+        </div><!-- End Feature Item -->
 
-          <div class="col-xl-6 d-flex">
-            <div class="row align-self-center gy-4">
-
-              <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
-                <div class="feature-box d-flex align-items-center">
-                  <i class="bi bi-check"></i>
-                  <h3>Eos aspernatur rem</h3>
-                </div>
-              </div><!-- End Feature Item -->
-
-              <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
-                <div class="feature-box d-flex align-items-center">
-                  <i class="bi bi-check"></i>
-                  <h3>Facilis neque ipsa</h3>
-                </div>
-              </div><!-- End Feature Item -->
-
-              <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
-                <div class="feature-box d-flex align-items-center">
-                  <i class="bi bi-check"></i>
-                  <h3>Volup amet volupt</h3>
-                </div>
-              </div><!-- End Feature Item -->
-
-              <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
-                <div class="feature-box d-flex align-items-center">
-                  <i class="bi bi-check"></i>
-                  <h3>Rerum omnis sint</h3>
-                </div>
-              </div><!-- End Feature Item -->
-
-              <div class="col-md-6" data-aos="fade-up" data-aos-delay="600">
-                <div class="feature-box d-flex align-items-center">
-                  <i class="bi bi-check"></i>
-                  <h3>Alias possimus</h3>
-                </div>
-              </div><!-- End Feature Item -->
-
-              <div class="col-md-6" data-aos="fade-up" data-aos-delay="700">
-                <div class="feature-box d-flex align-items-center">
-                  <i class="bi bi-check"></i>
-                  <h3>Repellendus molli</h3>
-                </div>
-              </div><!-- End Feature Item -->
-
-            </div>
+        <!-- Feature 2: Environmental Monitoring -->
+        <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="feature-box d-flex align-items-center">
+            <i class="bi bi-cloud-sun"></i>
+            <h3>Environmental Monitoring</h3>
           </div>
+        </div><!-- End Feature Item -->
 
-        </div>
+        <!-- Feature 3: Automated Alerts -->
+        <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+          <div class="feature-box d-flex align-items-center">
+            <i class="bi bi-bell-fill"></i>
+            <h3>Automated Alerts</h3>
+          </div>
+        </div><!-- End Feature Item -->
+
+        <!-- Feature 4: Remote Hive Access -->
+        <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+          <div class="feature-box d-flex align-items-center">
+            <i class="bi bi-phone"></i>
+            <h3>Remote Hive Access</h3>
+          </div>
+        </div><!-- End Feature Item -->
+
+        <!-- Feature 5: Battery & Power Efficiency -->
+        <div class="col-md-6" data-aos="fade-up" data-aos-delay="600">
+          <div class="feature-box d-flex align-items-center">
+            <i class="bi bi-battery-charging"></i>
+            <h3>Power Efficiency</h3>
+          </div>
+        </div><!-- End Feature Item -->
+
+        <!-- Feature 6: Data-Driven Insights -->
+        <div class="col-md-6" data-aos="fade-up" data-aos-delay="700">
+          <div class="feature-box d-flex align-items-center">
+            <i class="bi bi-lightbulb"></i>
+            <h3>Data-Driven Insights</h3>
+          </div>
+        </div><!-- End Feature Item -->
 
       </div>
+    </div>
 
-    </section><!-- /Features Section -->
+  </div>
+</div>
+
+</section>
+<!-- /Features Section -->
 
     <!-- Pricing Section -->
 
@@ -337,70 +345,89 @@
     <!-- Faq Section -->
     <section id="faq" class="faq section light-background">
 
-      <div class="container">
+<div class="container">
 
-        <div class="row gy-4">
+  <div class="row gy-4">
 
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="content px-xl-5">
-              <h3><span>Frequently Asked </span><strong>Questions</strong></h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-              </p>
-            </div>
+    <!-- FAQ Title Section -->
+    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+      <div class="content px-xl-5">
+        <h3><span>Frequently Asked </span><strong>Questions</strong></h3>
+        <p>
+          Here are some common questions about our IoT-Based Beehive Monitoring System to help you understand its features, benefits, and how it works.
+        </p>
+      </div>
+    </div>
+
+    <!-- FAQ Items -->
+    <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+
+      <div class="faq-container">
+
+        <!-- Question 1 -->
+        <div class="faq-item faq-active">
+          <h3><span class="num">1.</span> <span>How does the IoT-Based Beehive Monitoring System work?</span></h3>
+          <div class="faq-content">
+            <p>
+              The system uses IoT sensors to collect real-time data on temperature, humidity, hive weight, and bee activity. This data is transmitted to a cloud platform, where it’s analyzed and displayed on a dashboard for easy monitoring.
+            </p>
           </div>
+          <i class="faq-toggle bi bi-chevron-right"></i>
+        </div><!-- End Faq item-->
 
-          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
-
-            <div class="faq-container">
-              <div class="faq-item faq-active">
-                <h3><span class="num">1.</span> <span>Non consectetur a erat nam at lectus urna duis?</span></h3>
-                <div class="faq-content">
-                  <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item">
-                <h3><span class="num">2.</span> <span>Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</span></h3>
-                <div class="faq-content">
-                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item">
-                <h3><span class="num">3.</span> <span>Dolor sit amet consectetur adipiscing elit pellentesque?</span></h3>
-                <div class="faq-content">
-                  <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item">
-                <h3><span class="num">4.</span> <span>Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</span></h3>
-                <div class="faq-content">
-                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item">
-                <h3><span class="num">5.</span> <span>Tempus quam pellentesque nec nam aliquam sem et tortor consequat?</span></h3>
-                <div class="faq-content">
-                  <p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-            </div>
-
+        <!-- Question 2 -->
+        <div class="faq-item">
+          <h3><span class="num">2.</span> <span>What types of data can the system monitor?</span></h3>
+          <div class="faq-content">
+            <p>
+              It monitors key parameters such as internal hive temperature, humidity levels, hive weight (to track honey production), and bee activity levels to detect potential swarming or health issues.
+            </p>
           </div>
-        </div>
+          <i class="faq-toggle bi bi-chevron-right"></i>
+        </div><!-- End Faq item-->
+
+        <!-- Question 3 -->
+        <div class="faq-item">
+          <h3><span class="num">3.</span> <span>Can I access the data remotely?</span></h3>
+          <div class="faq-content">
+            <p>
+              Yes, the system is designed for remote access. You can view hive data from your smartphone, tablet, or computer anytime, anywhere, through a user-friendly web dashboard or mobile app.
+            </p>
+          </div>
+          <i class="faq-toggle bi bi-chevron-right"></i>
+        </div><!-- End Faq item-->
+
+        <!-- Question 4 -->
+        <div class="faq-item">
+          <h3><span class="num">4.</span> <span>Will the system notify me of any issues?</span></h3>
+          <div class="faq-content">
+            <p>
+              Absolutely. The system sends automated alerts via SMS or email if it detects abnormal conditions, such as sudden drops in temperature, unusual hive activity, or low hive weight, helping you respond quickly.
+            </p>
+          </div>
+          <i class="faq-toggle bi bi-chevron-right"></i>
+        </div><!-- End Faq item-->
+
+        <!-- Question 5 -->
+        <div class="faq-item">
+          <h3><span class="num">5.</span> <span>Is the system easy to install and maintain?</span></h3>
+          <div class="faq-content">
+            <p>
+              Yes, the system is designed with ease of use in mind. It comes with clear installation instructions, and the sensors require minimal maintenance. Battery-powered sensors have long battery life, and the software updates automatically.
+            </p>
+          </div>
+          <i class="faq-toggle bi bi-chevron-right"></i>
+        </div><!-- End Faq item-->
 
       </div>
 
-    </section><!-- /Faq Section -->
+    </div>
+  </div>
+
+</div>
+
+</section>
+<!-- /Faq Section -->
 
     <!-- Contact Section -->
     <section id="contact" class="contact section">
@@ -420,7 +447,8 @@
               <i class="bi bi-geo-alt flex-shrink-0"></i>
               <div>
                 <h3>Address</h3>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <p>Bukidnon State University</p>
+                <p>Malaybalay City, Bukidnon
               </div>
             </div><!-- End Info Item -->
 
@@ -428,7 +456,7 @@
               <i class="bi bi-telephone flex-shrink-0"></i>
               <div>
                 <h3>Call Us</h3>
-                <p>+1 5589 55488 55</p>
+                <p>+639917067201</p>
               </div>
             </div><!-- End Info Item -->
 
@@ -436,7 +464,7 @@
               <i class="bi bi-envelope flex-shrink-0"></i>
               <div>
                 <h3>Email Us</h3>
-                <p>info@example.com</p>
+                <p>Portillass@gmail.com</p>
               </div>
             </div><!-- End Info Item -->
 
@@ -486,7 +514,7 @@
 
     <div class="container">
       <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">eStartup</strong> <span>All Rights Reserved</span></p>
+        <p><span>Capstone</span>  <span>Project</span></p>
       </div>
       <div class="social-links d-flex justify-content-center">
         <a href=""><i class="bi bi-twitter-x"></i></a>
@@ -499,7 +527,7 @@
         <!-- You can delete the links only if you've purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <a href="https://github.com/Portillass">Rell</a>
       </div>
     </div>
 
