@@ -7,9 +7,9 @@ var ctx = document.getElementById("myPieChart");
 var myPieChart = new Chart(ctx, {
   type: 'doughnut',
   data: {
-    labels: ["Direct", "Referral", "Social"],
+    labels: ["Too Humid", "Too Dry", "Optimal"],
     datasets: [{
-      data: [55, 30, 15],
+      data: [55, 30, 15,],
       backgroundColor: ['#4e73df', '#1cc88a', '#36b9cc'],
       hoverBackgroundColor: ['#2e59d9', '#17a673', '#2c9faf'],
       hoverBorderColor: "rgba(234, 236, 244, 1)",
@@ -17,6 +17,7 @@ var myPieChart = new Chart(ctx, {
   },
   options: {
     maintainAspectRatio: false,
+    
     tooltips: {
       backgroundColor: "rgb(255,255,255)",
       bodyFontColor: "#858796",
@@ -26,10 +27,18 @@ var myPieChart = new Chart(ctx, {
       yPadding: 15,
       displayColors: false,
       caretPadding: 10,
+      callbacks: {
+        label: function(tooltipItem, chart) {
+          var datasetLabel = chart.datasets[tooltipItem.datasetIndex].label || '';
+          return datasetLabel + ': ' + number_format(tooltipItem.yLabel) + '%';
+        }
+      }
     },
     legend: {
       display: false
     },
     cutoutPercentage: 80,
+    
   },
+  
 });

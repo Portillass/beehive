@@ -1,10 +1,9 @@
-
 @extends('layouts.dashboardlayout')   
-     @section('title', 'Dasboard' )   
-     @section('content')           <!-- End of Topbar -->
+@section('title', 'Dashboard')   
+@section('content')
 
-                <!-- Begin Page Content -->
-                <div class="container-fluid">
+<!-- Begin Page Content -->
+<div class="container-fluid">
 
 <!-- Page Heading -->
 <div class="d-sm-flex align-items-center justify-content-between mb-4">
@@ -16,37 +15,34 @@
 
 <!-- Content Row -->
 <div class="row">
-    @foreach (['primary' => 'Monthly', 'success' => 'Annual', 'info' => 'Tasks', 'warning' => 'Pending Requests'] as $color => $label)
-    <div class="col-xl-3 col-md-6 mb-4">
-        <div class="card border-left-{{ $color }} shadow h-100 py-2">
+    <!-- Air Quality Card -->
+    <div class="col-md-6 mb-4">
+        <div class="card bg-success text-white shadow">
             <div class="card-body">
-                <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                        <div class="text-xs font-weight-bold text-{{ $color }} text-uppercase mb-1">
-                            Earnings ({{ $label }})
-                        </div>
-                        <div class="h5 mb-0 font-weight-bold text-gray-800">
-                            {{ $label == 'Pending Requests' ? 18 : '$' . rand(40000, 215000) }}
-                        </div>
-                    </div>
-                    <div class="col-auto">
-                        <i class="fas fa-{{ $label == 'Pending Requests' ? 'comments' : ($label == 'Tasks' ? 'clipboard-list' : 'calendar') }} fa-2x text-gray-300"></i>
-                    </div>
-                </div>
+                <h5 class="card-title">Air Quality</h5>
+                <p class="card-text">Good (AQI: 42)</p>
             </div>
         </div>
     </div>
-    @endforeach
+
+    <!-- Battery Card -->
+    <div class="col-md-6 mb-4">
+        <div class="card bg-warning text-white shadow">
+            <div class="card-body">
+                <h5 class="card-title">Battery</h5>
+                <p class="card-text">85% Charged</p>
+            </div>
+        </div>
+    </div>
 </div>
 
-<!-- Content Row -->
+<!-- Existing Content Row -->
 <div class="row">
-
     <!-- Area Chart -->
     <div class="col-xl-8 col-lg-7">
         <div class="card shadow mb-4">
             <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                <h6 class="m-0 font-weight-bold text-primary">Earnings Overview</h6>
+                <h6 class="m-0 font-weight-bold text-primary">Temperature</h6>
                 <div class="dropdown no-arrow">
                     <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown">
                         <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
@@ -71,7 +67,7 @@
     <div class="col-xl-4 col-lg-5">
         <div class="card shadow mb-4">
             <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                <h6 class="m-0 font-weight-bold text-primary">Revenue Sources</h6>
+                <h6 class="m-0 font-weight-bold text-primary">Humidity</h6>
                 <div class="dropdown no-arrow">
                     <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown">
                         <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
@@ -89,17 +85,15 @@
                     <canvas id="myPieChart"></canvas>
                 </div>
                 <div class="mt-4 text-center small">
-                    <span class="mr-2"><i class="fas fa-circle text-primary"></i> Direct</span>
-                    <span class="mr-2"><i class="fas fa-circle text-success"></i> Social</span>
-                    <span class="mr-2"><i class="fas fa-circle text-info"></i> Referral</span>
+                    <span class="mr-2"><i class="fas fa-circle text-primary"></i> Too Humid</span>
+                    <span class="mr-2"><i class="fas fa-circle text-success"></i> Too dry</span>
+                    <span class="mr-2"><i class="fas fa-circle text-info"></i> Optimal</span>
                 </div>
             </div>
         </div>
-    </div
+    </div>
 </div>
 
-
 </div>
-</div>
-                <!-- /.container-fluid -->
+<!-- /.container-fluid -->
 @endsection
